@@ -1,1 +1,80 @@
 @charset "UTF-8";
+
+/* GERAIS */
+
+html,
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header>h1 {
+    color: white;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+
+header>p {
+    color: white;
+    padding-bottom: 50px;
+}
+
+/* MAIN */
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem>p {
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 300px;
+    text-align: justify;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(48, 47, 47);
+    color: white;
+
+}
+
+/* FOOTER */
+
+footer {
+    padding: 7px 0px 7px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
