@@ -58,13 +58,18 @@ header>p {
 
 /* MAIN */
 
+main {
+    max-width: 1070px;
+    margin: auto;
+}
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 section>p {
